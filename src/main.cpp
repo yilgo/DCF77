@@ -7,12 +7,12 @@
 #include <SPI.h>
 #include <Wire.h>
 
-#define CLK D2 //
-#define DIO D1
+#define CLK D2 // GPIO4
+#define DIO D1 // GPIO5
 
-#define inPin D5
-#define SDA_PIN D6  // GPIO4 on ESP8266
-#define SCL_PIN D7  // GPIO5 on ESP8266
+#define inPin D5 // GPIO14
+#define SDA_PIN D6  // GPIO12
+#define SCL_PIN D7  // GPIO13
 
 volatile unsigned long currTime = 0;
 volatile unsigned long prevTime = 0;
